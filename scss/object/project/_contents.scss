@@ -1,0 +1,138 @@
+.p-contents{
+  width: 100%;
+  >*{
+    h3{
+      display: flex;
+      position: relative;
+      font-style: italic;
+      font-size: 3rem;
+      letter-spacing: .2rem;
+      @include pc{
+        font-size: 6rem;
+      }
+      >span{
+        margin-top: 1.5rem;
+        margin-left: 3rem;
+        display: block;
+        width: 9rem;
+        height: .3rem;
+        @include pc{
+          margin-top: 3rem;
+          width: 20rem;
+        }
+      }
+    }
+  }
+  
+  &__concept{
+    padding: 10rem 1.5rem 4rem;
+    @include pc{
+      padding: 10rem 12rem 7rem 21rem;
+    }
+    h3{
+      color: #282F35;
+      padding-bottom: 5.5rem;
+      @include pc{
+        padding-bottom: 7rem;
+      }
+      >span{
+        background-color: #282F35;
+        top: 1.5rem;
+        left: 18.7rem;
+      }
+    }
+    >p{
+      color: #171717;
+      font-weight: 600;
+      text-align: center;
+      font-size: 2rem;
+      line-height: 1.5;
+      @include pc{
+        padding-bottom: 6rem;
+      }
+      >br{
+        display: none;
+        @include pc{
+          display: block;
+        }
+      }
+    }
+    &__flex{
+      @include pc{
+        display: flex;
+      }
+      p{
+        font-size: 1.6rem;
+        padding-top: 3.4rem;
+        padding-bottom: 3rem;
+        font-family: 'Noto Serif JP';
+        line-height: 1.9;
+        @include pc{
+          padding: 4.7rem 12rem 4.7rem 0;
+
+        }
+      }
+      img{
+        width: 100%;
+        object-fit: cover;
+        @include pc{
+          padding-right: 10rem;
+        }
+      }   
+    }
+  }
+
+  &__works, &__contact{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    h3{
+      justify-content: flex-end;
+      padding: 10rem 1.5rem 5rem 0;
+      color: #fff;
+      @include pc{
+        padding: 10.5rem 12rem 8rem 0;
+      }
+      >span{
+        background-color: #fff;
+      }
+    }
+    button{
+      a{
+        font-size: 1.6rem;
+        padding: 1.9rem 7.1rem;
+      }
+    }
+  }
+  
+  &__works{
+    background-image: url(../img/works-bgi@2x.jpg);
+  }
+
+  &__service{
+    padding-top: 10rem;
+    h3{
+      padding-left: 1.5rem;
+      padding-bottom: 8rem;
+      color: #282F35;
+      @include pc{
+        padding-left: 22rem;
+      }
+      >span{
+        background-color: #282F35;
+      }
+    }
+  }
+
+  &__contact{
+    margin-top: 6.4rem;
+    background-image: url(../img/contact-bgi@2x.jpg);
+    p{
+      padding: 3rem 0; 
+      text-align: center;
+      color: #fff;
+      font-size: 2rem;
+    }
+  }
+}

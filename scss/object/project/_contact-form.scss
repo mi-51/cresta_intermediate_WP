@@ -1,0 +1,54 @@
+.p-contact-form{
+  width: 100%;
+  height: auto;
+  padding: 10rem 1.5rem 8rem;
+  @include pc{
+    padding: 10rem 37rem 8rem;
+  }
+  >p{
+    font-size: 1.6rem;
+    padding-bottom: 1.5rem;
+  }
+  &__select{
+    padding-bottom: 2.5rem;
+    label{
+      display: flex;
+      padding: .5rem;
+      @include pc{
+        display: inline-flex;
+        padding: .7rem 2rem 0 0;
+      }
+      input{
+        font-size: 1.6rem;
+        margin-top: .3rem;
+        margin-right: .7rem;
+      }
+      >p{
+        font-size: 1.6rem;
+      }
+    }
+  }
+  &__input{
+    label{
+      display: block;
+      font-size: 1.6rem;
+    }
+    input, textarea{
+      width: 100%;
+      border: solid .1rem ;
+      margin: .5rem 0 2.5rem;
+      font-size: 1.8rem;
+    }
+    textarea{
+      height: 17rem;
+    }
+  }
+  button{
+    margin: 6.5rem 0 8rem;
+    input{
+      padding: 2rem 9rem;
+      font-size: 1.6rem;
+      letter-spacing: .2rem;
+    }
+  }
+}

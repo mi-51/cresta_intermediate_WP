@@ -1,0 +1,12 @@
+.c-button{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  &--yellow{
+    a{
+      display: block;
+    }
+    background-color: #F7D43F;
+    border-radius: 3rem;
+  }
+}
