@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <title><?php bloginfo( 'name' ); ?></title>
+  <?php wp_head(  ); ?>
 </head>
 <body <?php body_class(); ?>> 
 <?php wp_body_open(  ); ?>
@@ -71,6 +72,6 @@
       <p>©︎cresta.design all rights reserved</p>
     </small>   
   </footer>
-      
+  <?php wp_footer(  ); ?>
 </body>
 </html>

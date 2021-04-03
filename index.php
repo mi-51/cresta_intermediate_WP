@@ -81,7 +81,7 @@
           <p>Planning</p>
         </div>
         <div class="p-wrap__card__single--service">
-          <img src="<?php echo esc_url( get_template_directory_uri(). '/img/service-img03@2x.jpg' ); ?>" alt="">
+          <img src="<?php echo esc_url( get_template_directory_uri(). '/img/sevice-img03@2x.jpg' ); ?>" alt="">
           <p>Direction</p>
         </div>
       </div>
