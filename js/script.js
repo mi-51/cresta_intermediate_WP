@@ -17,9 +17,9 @@ $(function () {
 $(function() {
   $('.l-header').bgSwitcher({
     images: [
-      '../img/fv-bgi_01@2x.jpg',
-      '../img/fv-bgi_02@2x.jpg',
-      '../img/fv-bgi_03@2x.jpg'],
+      'http://localhost:10038/wp-content/themes/create-intermediate/img/fv-bgi_01@2x.jpg',
+      'http://localhost:10038/wp-content/themes/create-intermediate/img/fv-bgi_02@2x.jpg',
+      'http://localhost:10038/wp-content/themes/create-intermediate/img/fv-bgi_03@2x.jpg'],
     effect: "drop",
     interval: "3000",
     easing: "swing"

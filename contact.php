@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./scss/style.css">
-  <title>Cresta02 Contact</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title><?php bloginfo( 'name' ); ?></title>
 </head>
-<body>
+<body <?php body_class(); ?>> 
+<?php wp_body_open(  ); ?>
   <header class="l-header--contact">
     <div class="l-header__bar">
       <div class="l-header__left">
@@ -24,7 +25,7 @@
             <li><a href="#">Concept</a></li>
             <li><a href="#">Service</a></li>
             <li><a href="#">Works</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="./contact.php">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -71,7 +72,5 @@
     </small>   
   </footer>
       
-  <script src="./js/jquery-3.5.1.min.js"></script>
-  <script src="./js/script.js"></script>
 </body>
 </html>
